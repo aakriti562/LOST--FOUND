@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lost & Found Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+
+</head>
+    <body>
+       <!--------heading----------->
+      <div class="head">
+        <a href="#" class="logo1">
+            <img src="lensss-removebg-preview.png" alt="">
+        </a>
+            <a href="#" class="logo2">
+                <img src="output-seotoolscentre (1).png" alt="">
+            </a>
+            
+        <div class="toggle">
+            <div class="toggleIcon" onclick="menuToggle();">
+            </div>
+        </div>
+      </div>
+      <div class="menu-overlay">
+        <ul>
+            <li><a href="#h" class="homes">Home</a></li>
+            <li><a href="#a">About Us</a></li>
+            <li><a href="#f">Found Post</a></li>
+            <li><a href="#l">Lost Post</a></li>
+            <li><a href="#c">Contact Us</a></li>
+        </ul>
+      </div>
+      <!------------social-------------->
+      <div class="social-area">
+        <div class="user-area">
+            <a href="#" class="user"><i class="fa fa-user"></i></a>
+        </div>
+        <div class="social-link">
+            <div class="circle" onclick="menus();">
+                <i class="fa fa-plus" id="plus"></i>
+            </div>
+            <div class="links" id="links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+            </div>
+        </div>
+      </div>
+      <!-------login and signup form-------->
+      <div class="banner-form">
+        <!-------login---------->
+        <div class="login-form">
+            <a href="#" class="form-cancel">
+                <i class="fa fa-times"></i>
+            </a>
+            <strong>Log in</strong>
+            <form action="">
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="submit" value="Log in">
+            </form>
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="#"class="sign-up-btn">Create Account?</a>
+            </div>
+        </div>
+        <!--------Sign up------------>
+        <div class="sign-up-form">
+            <a href="#" class="form-cancel">
+                <i class="fa fa-times"></i>
+            </a>
+            <strong>Sign UP</strong>
+            <form action="">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="submit" value="Sign up">
+            </form>
+            <div class="form-btns">
+                <a href="#" class="already-account">Already Have Account?</a>
+            </div>
+        </div>
+      </div>
+      </div>
+      <section id="h" class="home">
+            <div class="detail">
+                <h2>LOST & FOUND</h2>
+                <p>Something lost it's way and came to you ?? Just show the world how honest you are!<br>Or
+                 if you've lost something just chill !! People here are damnnn cool!</p>
+                 <div class="switch-btn" id="switch-title">
+                    <a href="#found" class="switch active">Found</a>
+                    <a href="#lost" class="switch">Lost</a>
+                 </div>
+                <ul class="earth">
+                 
+                </ul>
+            </div>
+            <div class="content">
+                <div class="slide active" id="found">
+                    <div class="inner">
+                        <form action="">
+                            <h1>Found Form</h1>
+                            <div class="inputBx">
+                                <label for="">Item Found</label>
+                                <input type="text" name="" placeholder="Enter Item...." required>
+                            </div>
+                            <div class="inputBx">
+                                <label for="">Category</label>
+                                <select name="">
+                                    <option selected>Select Item Category</option>
+                                    <option>Electronics</option>
+                                    <option>Personal Accessories</option>
+                                    <option>Animals/Pets</option>
+                                    <option>Baggage/Bags/Luggage</option>
+                                    <option>Clothing</option>
+                                    <option>Footwear</option>
+                                    <option>Household/Tools</option>
+                                    <option>Jewellery</option>
+                                    <option>Musical Equipment</option>
+                                    <option>Sporting Goods</option>
+                                    <option>Tickets</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="inputBx">
+                                <label for="">Date Found</label>
+                                <input type="date" name="" min="2021-01-01" max="2023-12-31" placeholder="dd-mm-yyyy" required>
+                            </div>
+                            <div class="inputBx">
+                                <label for="">Location</label>
+                                <select name=>
+                                    <option selected>Enter Your Location</option>
+                                    <option>Faridabad Sector-15</option>
+                                    <option>Ballabgarh</option>
+                                    <option>Faridabad Sector-10</option>
+                                    <option>Faridabad Sector-6</option>
+                                    <option>Faridabad Sector-28</option>
+                                    <option>Faridabad Sector-8</option>
+                                    <option>Girls Hostel-Ymca</option>
+                                    <option>Boys Hostel-Ymca</option>
+                                    <option>Faridabad Sector-7</option>
+                                    <option>Faridabad Sector-9</option>
+                                    <option>Faridabad Sector-11</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="inputBx">
+                                <label for="">Upload Image</label>
+                                <input type="file" name="" required>
+                            </div>
+                            <div class="inputBx">
+                                <input type="submit" class="btn" value="SEARCH">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="slide" id="lost">
+                    <div class="inner">
+                        <form action="">
+                            <h1>Lost Form</h1>
+                            <div class="inputBx">
+                                <label for="">Item Found</label>
+                                <input type="text" name="" placeholder="Enter Item...." required>
+                            </div>
+                            <div class="inputBx">
+                                <label for="">Category</label>
+                                <select name="">
+                                    <option selected>Select Item Category</option>
+                                    <option>Electronics</option>
+                                    <option>Personal Accessories</option>
+                                    <option>Animals/Pets</option>
+                                    <option>Baggage/Bags/Luggage</option>
+                                    <option>Clothing</option>
+                                    <option>Footwear</option>
+                                    <option>Household/Tools</option>
+                                    <option>Jewellery</option>
+                                    <option>Musical Equipment</option>
+                                    <option>Sporting Goods</option>
+                                    <option>Tickets</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="inputBx">
+                                <label for="">Date Lost</label>
+                                <input type="date" name="" min="2021-01-01" max="2023-12-31" placeholder="dd-mm-yyyy" required>
+                            </div>
+                            <div class="inputBx">
+                                <label for="">Location</label>
+                                <select name=>
+                                    <option selected>Enter Your Location</option>
+                                    <option>Faridabad Sector-15</option>
+                                    <option>Ballabgarh</option>
+                                    <option>Faridabad Sector-10</option>
+                                    <option>Faridabad Sector-6</option>
+                                    <option>Faridabad Sector-28</option>
+                                    <option>Faridabad Sector-8</option>
+                                    <option>Girls Hostel-Ymca</option>
+                                    <option>Boys Hostel-Ymca</option>
+                                    <option>Faridabad Sector-7</option>
+                                    <option>Faridabad Sector-9</option>
+                                    <option>Faridabad Sector-11</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="inputBx">
+                                <label for="">Upload Image</label>
+                                <input type="file" name="" required>
+                            </div>
+                            <div class="inputBx">
+                                <input type="submit" class="btn" value="SUBMIT">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--About Us-->
+<section id="a" class="about">
+    <h4 class="heading"><span>About US</span></h4>
+    <div class="content">
+        <p>
+            We try to reduce students stress somewhat by heping them if they lost something precious on the college/hostle grounds.
+There are two sections where you can go to one is the LOST section and the other is the FOUND section. You can inform other people about what precious belonging you’ve lost and ask your fellow students for help and if you’ve found something then you can be of help to somebody else. Both the sections have their respective instructions.
+And the faculty involvement in this procedure is about nill, so it also helps in creating a strong bond between the kids and also to maintain transparency.<br><em><b><mark><strong> OUR MISSION..</strong> </mark></b></em><br>
+Our mission is to make the students community more trustworthy and faithful and this place a safe space for all of your precious belongings.
+We all know the students have to bring many sorts of precious belongings to college for many reasons and there are many chances of loosing it which might give the students some permanent scars because who knows what insane amount of value a little thing might hold in a person’s life but don’t worry that’s where our page and your fellow collegemates come forward to help you ! We don’t want you to be stressed if you’ve lost something on the college and hostel grounds we just want you to fill the form under the LOST section so that we can get you out of this stress ASAP.
+Even this page is created and managed by some of the students, so your fellow collegemates have already started helping you in a way.</p>
+    </div>
+        <div class="imgBx">
+<img src="image_processing20221001-8579-1qfawid.gif" alt="">
+    </div>
+</section>
+
+<!--Lostt Items-->
+<section id="l" class="post">
+    <h4 class="heading"><span>Lost Items</span></h4>
+    <div class="content">
+        <div class="container">
+            <div class="items">
+                <a href="#lightbox-1" class="open">Lenovo Legion Laptop</a>
+                <p><strong>Location: CV Raman Block -4rth Floor (Maths Dep), YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Electronics</p>
+            </div>
+            <div class="items">
+                <a href="#lightbox-2" class="open">Fossil Sport Watch</a>
+                <p><strong>Location: Near the Back Gate (Nilgiri Apartments) , YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Watch</p>
+            </div>
+            <div class="items">
+                <a href="#lightbox-3" class="open">Driving Licence</a>
+                <p><strong>Location: MBA Park , YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Personal Accessories</p>
+            </div>
+            <div class="items">
+                <a href="#lightbox-4" class="open">Wallet</a>
+                <p><strong>Location: Central Library , YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Personal Accessories</p>
+            </div>
+            <div class="items">
+                <a href="#lightbox-5" class="open">Airdopes-Zabra Zen-5</a>
+                <p><strong>Location: Computer Department-Second Floor , YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Musical Equipment</p>
+            </div>
+            <div class="items">
+                <a href="#lightbox-6" class="open">Bike Keys</a>
+                <p><strong>Location: Near LC Stairs, YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Personal Accessories</p>
+            </div>
+            <div class="items">
+                <a href="#lightbox-7" class="open">Badminton Kit</a>
+                <p><strong>Location: Shakuntalam, YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Sporting Goods</p>
+            </div>
+            <div class="items">
+                <a href="#lightbox-8" class="open">Addidas-School Bag</a>
+                <p><strong>Location: Near Mechanical Department-First Floor , YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Baggage/Bags</p>
+            </div>
+            <div class="items">
+                <a href="#lightbox-9" class="open">PUMA CAP</a>
+                <p><strong>Location: Near Canteen, YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Clothing</p>
+            </div>
+            <div class="items">
+                 <a href="#lightbox-10" class="open">Bracelet</a>
+                <p><strong>Location: Near Basket-ball Court (LC) , YMCA , Faridabad</strong></p>
+                <p><strong>Category:</strong> Jewellery</p>
+            </div>
+        </div>
+    </div>
+    <!------------Found Items-------------->
+    <section id="f" class="post1">
+        <h4 class="heading"><span>Found Items</span></h4>
+        <div class="content">
+            <div class="container1">
+                <div class="items">
+                    <a href="#lightbox-11" class="open">Water Bottle</a>
+                    <p><strong>Location: CV Raman Block -4rth Floor (Maths Dep), YMCA , Faridabad</strong></p>
+                    <p><strong>Category:</strong>Personal Accessories </p>
+                </div>
+                <div class="items">
+                    <a href="#lightbox-12" class="open">Football</a>
+                    <p><strong>Location: Near the Back Gate (Nilgiri Apartments) , YMCA , Faridabad</strong></p>
+                    <p><strong>Category:</strong> Sporting Goods</p>
+                </div>
+                <div class="items">
+                    <a href="#lightbox-13" class="open">ID-Card</a>
+                    <p><strong>Location: MBA Park , YMCA , Faridabad</strong></p>
+                    <p><strong>Category:</strong> Personal Accessories</p>
+                </div>
+                <div class="items">
+                    <a href="#lightbox-15" class="open">Tote-Bag</a>
+                    <p><strong>Location: Central Library , YMCA , Faridabad</strong></p>
+                    <p><strong>Category:</strong> Personal Accessories</p>
+                </div>
+                <div class="items">
+                    <a href="#lightbox-14" class="open">Guitar</a>
+                    <p><strong>Location: Computer Department-Second Floor , YMCA , Faridabad</strong></p>
+                    <p><strong>Category:</strong> Musical Equipment</p>
+                </div>
+                <div class="items">
+                    <a href="#lightbox-16" class="open">Jacket</a>
+                    <p><strong>Location: Near LC Stairs, YMCA , Faridabad</strong></p>
+                    <p><strong>Category:</strong> Clothing </p>
+                </div>
+                <div class="items">
+                    <a href="#lightbox-17" class="open">Ring</a>
+                    <p><strong>Location: Shakuntalam, YMCA , Faridabad</strong></p>
+                    <p><strong>Category:</strong> Jewellery </p>
+                </div>
+            </div>
+        </div>
+    <!--Lost Items-POP UP-->
+<div id="lightbox-1" class="lightbox-basic zoom mfp-hide">
+<div class="lost-post">
+    <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+    <div class="post-title">
+        <h1>Lost Item Details: Lenovo Legion Laptop </h1>
+        <span>Item ID: 19-0501 </span>
+    </div>
+    <div class="post-outer">
+        <div class="post-detail">
+            <div class="post-area">
+                <h6>Lost Item</h6>
+                <p> Lenovo Legion Laptop </p>
+            </div>
+            <div class="post-area">
+                <h6>Category</h6>
+                <p> Electronics </p>
+            </div>
+            <div class="post-area">
+                <h6>Lost Date</h6>
+                <p> 22/12/2022 </p>
+            </div>
+        </div>
+        <div class="post-detail">
+            <div class="imgBx">
+                <img src="lenovo.png" alt="">
+            </div>
+        </div>
+        <div class="post-detail">
+            <div class="post-area">
+                <h6>Lost Location</h6>
+                <p>CV Raman Block -4rth Floor (Maths Dep), YMCA , Faridabad</p>
+            </div>
+            <div class="post-area">
+                <h6>Additional Information</h6>
+                <p>Black Sleeves , Weighs about 1.5-2 Kgs </p>
+            </div>
+            <div class="post-area">
+                <h6>Contact Info</h6>
+               <a href="#">View Contact Info</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!---------------------------------------2nd----------------------------------------------------->
+<div id="lightbox-2" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: Fossil Sport Watch </h1>
+            <span>Item ID: 19-0502 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> Fossil Sport Watch  </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Watch </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 02/01/2023 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="watch.png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p>Near the Back Gate (Nilgiri Apartments) , YMCA , Faridabad</p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p>Black Strap with Square Dial</p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!----------------------3rd----------------------------------->
+<div id="lightbox-3" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: Driving Licence </h1>
+            <span>Item ID: 19-0503 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> Driving Licence </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Personal Accessories </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 05/01/2023 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="DL-01.png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p>MBA Park , YMCA , Faridabad</p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p> Name justifies Athra Kurup </p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!----------------------4rth---------------------------------->
+<div id="lightbox-4" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: Wallet </h1>
+            <span>Item ID: 19-0504 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> Wallet </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Personal Accessories </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 31/12/2022 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="wallet.png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p> Central Library, YMCA , Faridabad</p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p> Brown Leather material </p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!----------------------------5th--------------------------------->
+<div id="lightbox-5" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: Airdopes-Zabra Zen-5 </h1>
+            <span>Item ID: 19-0505 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> Airdopes-Zabra Zen-5 </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Musical Equipment </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 09/01/2023 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="airdopes-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p>Computer Department-Second Floor , YMCA , Faridabad</p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p>Black & Red Case Cover</p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-------------------------------6th--------------------------------->
+<div id="lightbox-6" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: Bike Keys </h1>
+            <span>Item ID: 19-0506 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> Bike Keys </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Personal Accessories </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 29/12/2022 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="bike_keys-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p>Near LC Stairs, YMCA , Faridabad</p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p>Silver keychain , 2 Keys </p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!--------------------------------7th-------------------------------->
+<div id="lightbox-7" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: Badminton Kit </h1>
+            <span>Item ID: 19-0507 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> Badminton Kit </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Sporting Goods </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 30/11/2022 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="badminton-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p>Shakuntalam, YMCA , Faridabad</p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p> Pink in Color </p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!----------------------------------8th-------------------------------->
+<div id="lightbox-8" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: Addidas-School Bag </h1>
+            <span>Item ID: 19-0508 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> Addidas-School Bag </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Baggage/Bags </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 12/12/2022 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="bag__1_-removebg-preview (1).png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p>Near Mechanical Department-First Floor, YMCA , Faridabad</p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p>Black In color </p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!---------------------------------------9th----------------------------------->
+<div id="lightbox-9" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: PUMA CAP </h1>
+            <span>Item ID: 19-0509 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> PUMA CAP </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Clothing </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 08/01/2023 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="cap-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p> Near Canteen, YMCA , Faridabad </p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p>Black in Color </p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<!----------------------------------10th-------------------------------------->
+<div id="lightbox-10" class="lightbox-basic zoom mfp-hide">
+    <div class="lost-post">
+        <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+        <div class="post-title">
+            <h1>Lost Item Details: Bracelet </h1>
+            <span>Item ID: 19-05010 </span>
+        </div>
+        <div class="post-outer">
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Item</h6>
+                    <p> Bracelet </p>
+                </div>
+                <div class="post-area">
+                    <h6>Category</h6>
+                    <p> Jewellery </p>
+                </div>
+                <div class="post-area">
+                    <h6>Lost Date</h6>
+                    <p> 10/01/2023 </p>
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="imgBx">
+                    <img src="bracelet-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="post-detail">
+                <div class="post-area">
+                    <h6>Lost Location</h6>
+                    <p>Near Basket-ball Court (LC), YMCA , Faridabad</p>
+                </div>
+                <div class="post-area">
+                    <h6>Additional Information</h6>
+                    <p>Sterlin Silver-925 </p>
+                </div>
+                <div class="post-area">
+                    <h6>Contact Info</h6>
+                   <a href="#">View Contact Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+    <!----------------------------FOUND Items-POP UP----------------------------->
+    <div id="lightbox-11" class="lightbox-basic zoom mfp-hide">
+        <div class="lost-post">
+            <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+            <div class="post-title">
+                <h1>Found Item Details: Water Bottle </h1>
+                <span>Item ID: 19-0513 </span>
+            </div>
+            <div class="post-outer">
+                <div class="post-detail">
+                    <div class="post-area">
+                        <h6>Found Item</h6>
+                        <p> Water Bottle </p>
+                    </div>
+                    <div class="post-area">
+                        <h6>Category</h6>
+                        <p> Personal Accessories </p>
+                    </div>
+                    <div class="post-area">
+                        <h6>Found Date</h6>
+                        <p> 27/12/2022 </p>
+                    </div>
+                </div>
+                <div class="post-detail">
+                    <div class="imgBx">
+                        <img src="bottle-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <div class="post-detail">
+                    <div class="post-area">
+                        <h6>Found Location</h6>
+                        <p>CV Raman Block -3rd Floor (Chy Dep), YMCA , Faridabad</p>
+                    </div>
+                    <div class="post-area">
+                        <h6>Additional Information</h6>
+                        <p> Weighs about 1.5-2 Kgs </p>
+                    </div>
+                    <div class="post-area">
+                        <h6>Contact Info</h6>
+                       <a href="#">View Contact Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!---------------------------------------2nd----------------------------------------------------->
+        <div id="lightbox-12" class="lightbox-basic zoom mfp-hide">
+            <div class="lost-post">
+                <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+                <div class="post-title">
+                    <h1>Found Item Details: Football </h1>
+                    <span>Item ID: 19-0522 </span>
+                </div>
+                <div class="post-outer">
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Item</h6>
+                            <p> Football  </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Category</h6>
+                            <p> Sporting Goods </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Found Date</h6>
+                            <p> 02/01/2023 </p>
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="imgBx">
+                            <img src="ball-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Location</h6>
+                            <p>Near the Back Gate (Nilgiri Apartments) , YMCA , Faridabad</p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Additional Information</h6>
+                            <p>Black Strap </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Contact Info</h6>
+                           <a href="#">View Contact Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+        <!----------------------3rd----------------------------------->
+        <div id="lightbox-13" class="lightbox-basic zoom mfp-hide">
+            <div class="lost-post">
+                <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+                <div class="post-title">
+                    <h1>Found Item Details: ID-Card </h1>
+                    <span>Item ID: 19-0503 </span>
+                </div>
+                <div class="post-outer">
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Item</h6>
+                            <p> ID-Card </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Category</h6>
+                            <p> Personal Accessories </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Found Date</h6>
+                            <p> 07/01/2023 </p>
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="imgBx">
+                            <img src="id_card-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Location</h6>
+                            <p>MBA Park , YMCA , Faridabad</p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Additional Information</h6>
+                            <p> Name justifies Aman </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Contact Info</h6>
+                           <a href="#">View Contact Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <!----------------------4rth---------------------------------->
+        <div id="lightbox-14" class="lightbox-basic zoom mfp-hide">
+            <div class="lost-post">
+                <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+                <div class="post-title">
+                    <h1>Found Item Details: Guitar</h1>
+                    <span>Item ID: 19-0584 </span>
+                </div>
+                <div class="post-outer">
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Item</h6>
+                            <p> Guitar </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Category</h6>
+                            <p> Musical Equipment </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Found Date</h6>
+                            <p> 31/12/2022 </p>
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="imgBx">
+                            <img src="guitar-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Location</h6>
+                            <p> Central Library, YMCA , Faridabad</p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Additional Information</h6>
+                            <p> Brown Color </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Contact Info</h6>
+                           <a href="#">View Contact Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <!----------------------------5th--------------------------------->
+        <div id="lightbox-15" class="lightbox-basic zoom mfp-hide">
+            <div class="lost-post">
+                <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+                <div class="post-title">
+                    <h1>Found Item Details: Tote-Bag </h1>
+                    <span>Item ID: 19-0525 </span>
+                </div>
+                <div class="post-outer">
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Item</h6>
+                            <p> Tote-Bag </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Category</h6>
+                            <p> Personal Accessoriest </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Found Date</h6>
+                            <p> 09/01/2023 </p>
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="imgBx">
+                            <img src="tote-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Location</h6>
+                            <p>Computer Department-Second Floor , YMCA , Faridabad</p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Additional Information</h6>
+                            <p>Black & Red Color</p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Contact Info</h6>
+                           <a href="#">View Contact Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <!-------------------------------6th--------------------------------->
+        <div id="lightbox-16" class="lightbox-basic zoom mfp-hide">
+            <div class="lost-post">
+                <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+                <div class="post-title">
+                    <h1>Found Item Details: Jacket </h1>
+                    <span>Item ID: 19-0506 </span>
+                </div>
+                <div class="post-outer">
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Item</h6>
+                            <p> Jacket </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Category</h6>
+                            <p> Clothing </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Found Date</h6>
+                            <p> 29/12/2022 </p>
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="imgBx">
+                            <img src="download-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Location</h6>
+                            <p>Near LC Stairs, YMCA , Faridabad</p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Additional Information</h6>
+                            <p>Silver chain  </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Contact Info</h6>
+                           <a href="#">View Contact Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <!--------------------------------7th-------------------------------->
+        <div id="lightbox-17" class="lightbox-basic zoom mfp-hide">
+            <div class="lost-post">
+                <button title="Close (Esc)"type="button" class="mfp-close x-button">x</button>
+                <div class="post-title">
+                    <h1>Found Item Details: Ring  </h1>
+                    <span>Item ID: 19-0507 </span>
+                </div>
+                <div class="post-outer">
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Item</h6>
+                            <p> Ring </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Category</h6>
+                            <p> Jewellery </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Found Date</h6>
+                            <p> 30/11/2022 </p>
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="imgBx">
+                            <img src="ring.png" alt="">
+                        </div>
+                    </div>
+                    <div class="post-detail">
+                        <div class="post-area">
+                            <h6>Found Location</h6>
+                            <p>Shakuntalam, YMCA , Faridabad</p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Additional Information</h6>
+                            <p> Gold Material </p>
+                        </div>
+                        <div class="post-area">
+                            <h6>Contact Info</h6>
+                           <a href="#">View Contact Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+<!-------------Contact Us-------------->
+<section id="c" class="contact">
+    <h4 class="heading"><span>Contact US</span></h4>
+    <div class="content">
+        <div class="detail">
+            <div class="box">
+                <div class="icon"><i class="fa fa-map-marker fa-spin"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Aakriti-Panipat , India<br>Mahima-Sonipat , India<br>Main-Headquartes: Faridabad , India</p>
+                    </div>
+                
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-phone fa-spin"></i></div>
+                    <div class="text">
+                        <h3>Phone No.</h3>
+                        <p>(+91)-8826189857 <br> (+91)-8930980968</p>
+                    </div>
+                </div>
+           
+            <div class="box">
+                <div class="icon"><i class="fa fa-envelope-o fa-spin"></i></div>
+                    <div class="text">
+                        <h3>Email Address</h3>
+                        <p>aakrititmt562@gmail.com <br> mahimakhatri612@gmail.com</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--------Contact US Form------------>
+<div class="contact-form">
+    <div class="form">
+        <form action="">
+            <div class="input-area">
+                <input type="text" name="" required="required">
+                   <span>FULL NAME</span>
+            </div>
+            <div class="input-area">
+                <input type="text" name="" required="required">
+                   <span>EMAIL ADDRESS</span>
+            </div>
+            <div class="input-area">
+                <input type="text" name="" required="required">
+                   <span>SUBJECT</span>
+            </div>
+            <div class="input-area">
+               <textarea name="" required="required"></textarea>
+                   <span>MESSAGE</span>
+            </div>
+            <div class="input-area">
+                <input type="submit" value="SEND" > 
+            </div>
+        </form>
+    </div>
+</div>
+</section>
+<div class="copyright">
+    <h3><a href="#"><i class="fa fa-copyright"></i> 2023-Aakriti-Mahima-ProjectFlow</a></h3>
+</div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
